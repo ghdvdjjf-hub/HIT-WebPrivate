@@ -1,0 +1,4 @@
+git add . ( them vao )
+git commit -m'comment' ( dien comment)
+git push origin main ( day len )
+
