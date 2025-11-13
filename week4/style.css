@@ -230,7 +230,7 @@ body{
 .out{
   display: grid;
   gap: 15px;
-  padding: 0px 60px;
+  padding: 0px 580px;
 }
 .out h2{
   margin-top: 60px;
