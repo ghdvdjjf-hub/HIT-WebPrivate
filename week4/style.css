@@ -1,0 +1,274 @@
+* {
+  /* Xóa margin, padding và border mặc định */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+button {
+  cursor: pointer;
+}
+.card{
+  width: 360px;
+  background-color: white;
+  margin: auto;
+  margin-top: 120px;
+  border-radius: 16px;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 0px 1px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  display:grid;
+  gap: 16px;
+  border: 1px solid rgb(203, 201, 201);
+}
+body{
+  background-color: rgb(245, 234, 190);
+}
+.image img{
+  padding: 30px;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 12px;
+  width: 330px;
+}
+.describe{
+  display: grid;
+  gap: 10px;  
+}
+.describe h2{
+  color: rgb(56, 153, 238);
+  font-weight: bold;
+  font-size: 30px;
+}
+.describe h3{
+  color: rgb(63, 246, 136);
+  font-weight: bold;
+  font-size: 15px;
+}
+.feedback{
+  display: flex;
+}
+.feedback .fa-solid {
+  color: #ffcc00;          
+}
+
+.feedback .fa-regular {
+  color: #ccc;              
+}
+.mt .fa-solid{
+  color: black;
+}
+.act{
+  color: rgb(213, 83, 18);
+  display: flex;
+  gap: 5px;
+}
+.act button{
+  padding: 10px 30px ;
+  background-color: rgb(255, 115, 0);
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+.act i{
+  color: rgb(255, 255, 255);
+}
+.information1{
+ display: grid;
+ gap: 15px;
+}
+.information1 h4{
+  font-size: 20px;
+  font-weight: bold;
+}
+.information1 ul {
+  list-style-type: disc; 
+  padding-left: 20px;
+  font-size: 15px;
+}
+.information2{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.information2 h4{
+  font-size: 20px;
+  font-weight: bold;
+}
+.information2 button{
+  margin-bottom: 15px;
+}
+.information2 i{
+  color: black;
+}
+.feature {
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+}
+.feature h4{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(87, 180, 237);
+}
+.feature div{
+  display: flex;
+  gap: 15px;
+}
+.feature .fa-solid{
+  color: rgb(87, 180, 237);
+}
+.HDSD {
+  display: grid;
+  gap: 15px;
+}
+.HDSD h4{
+  color: orange;
+  font-size: 20px;
+  font-weight: bold;
+}
+.HDSD .fa-solid{
+  color: orange;
+}
+.mota{
+  color: rgb(210, 63, 230);
+  font-size: 20px;
+}
+.mota div{
+  display: flex;
+  gap: 15px;
+}
+.special{
+  display: grid;
+  gap: 15px;
+}
+.special h4{
+  color: rgb(197, 24, 24);
+  font-size: 20px;
+  font-weight: bold;
+}
+.special .fa-solid{
+  color: rgb(197, 24, 24);
+}
+.special div{
+  display: flex;
+  gap: 15px;
+}
+.share{
+  display: grid;
+  gap: 15px;
+}
+.share h5{
+  font-size: 20px;
+  font-weight: bold;
+}
+.bt{
+  display: flex;
+  gap: 15px;
+}
+.bt button{
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  padding: 2px 20px;
+  display: flex;
+  align-items: center;
+}
+.bt .fa-brands{
+  color: #ffffff;
+}
+.bt1 button{
+  background-color: rgb(6, 65, 138);
+}
+.bt2 button{
+  background-color: rgb(0, 162, 255);
+}
+.bt3 button{
+  background-color: rgb(244, 61, 183);
+}
+.review{
+  display: grid;
+  gap: 15px;
+}
+.review textarea {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+.rv1 button{
+  padding: 2px 5px;
+  background-color: rgb(4, 155, 243);
+  color: #ffffff;
+}
+.review h6{
+  color: rgb(125, 127, 128); 
+}
+.out{
+  display: grid;
+  gap: 15px;
+  padding: 0px 60px;
+}
+.out h2{
+  margin-top: 60px;
+}
+.sp1{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.sp1 img{
+  height: 100px;
+  width: 100px;
+  border-radius: 4px;
+}
+.sp1 h4{
+  color: black;
+}
+.sp1 h5{
+  color: rgb(34, 238, 132);
+  padding: 0px 150px;
+}
+.sp2{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.sp2 img{
+  height: 100px;
+  width: 100px;
+  border-radius: 4px;
+}
+.sp2 h4{
+  color: black;
+}
+.sp2 h5{
+  color: rgb(34, 238, 132);
+  padding: 0px 150px;
+}
+
+
+
